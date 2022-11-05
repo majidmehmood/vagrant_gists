@@ -12,6 +12,7 @@ pacman --noconfirm -Syu \
     apache \
     kitty \
     ranger \
+    nemo \
     xorg xorg-xinit \
     xterm \
     xf86-video-intel \
