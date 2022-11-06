@@ -8,14 +8,12 @@ pacman --noconfirm -Syu
 pacman --noconfirm -R virtualbox-guest-utils-nox
 # feel free to add/remove packages as you need
 pacman --noconfirm -Syu \
-    base-devel net-tools vim wget git unzip openssh bash-completion 
-    apache \
-    kitty \
-    ranger \
-    nemo \
+    base-devel net-tools vim wget git unzip openssh bash-completion \
     xorg xorg-xinit \
     xterm \
     xf86-video-intel \
     i3 slim dmenu \
-    firefox
+    firefox \
+    apache
 
+#pacman --noconfirm -S kitty ranger nemo
